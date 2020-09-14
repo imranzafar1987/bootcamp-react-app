@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Hello World again and again
+      Hello World again
     </div>
   );
 }
