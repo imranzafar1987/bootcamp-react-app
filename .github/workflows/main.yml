@@ -20,5 +20,5 @@ jobs:
              run: yarn build 
            - name: Install Surge
              run: npm install --global surge  
-           - name: Run surge
-             run: surge ./build http://firstbootcampclassreact.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+           - name: Deploye React App to Surge
+             run: surge ./build firstbootcampclassreact.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
