@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <h1>Hi Man!</h1>
-      What you want to create using React?
+      What you want to create using React ?
     </div>
   );
 }
