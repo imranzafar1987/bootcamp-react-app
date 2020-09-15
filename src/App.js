@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Student from 'Student.js';
+import Student from './Student.js';
 
 function App() {
   return(
