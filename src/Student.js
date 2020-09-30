@@ -6,6 +6,8 @@ function Student(props) {
       Tell me about your progress {props.progress}
       <br />
       Today Muhammad Afaq and Jahanzaib khan both are with me.
+      <br />
+      Janab what you want to eat today?
     </div>
   );
 }
