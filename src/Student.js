@@ -4,7 +4,8 @@ function Student(props) {
   return (
     <div>
       Tell me about your progress {props.progress}
-      Today Muhammad Afaq is with me.
+      <br />
+      Today Muhammad Afaq and Jahanzaib khan both are with me.
     </div>
   );
 }
