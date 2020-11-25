@@ -7,7 +7,7 @@ function Student(props) {
       <br />
       Today Muhammad Afaq and Jahanzaib khan both are with me.
       <br />
-      Janab what you want to eat today?
+      Janab what you want to eat today? Just a drink nothing else.
     </div>
   );
 }
