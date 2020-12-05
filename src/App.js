@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import "./App.css";
-import Student from "./Student.js";
+import React, { useState } from "react"
+import "./App.css"
+import Student from "./Student.jsx"
+import Teacher from "./teacher.jsx"
 
-function App() {
+  function App() {
   let [count, setCount] = useState(0);
   return (
     <div>
@@ -11,13 +12,9 @@ function App() {
       <Student progress="good"></Student>
       Value of count is {count}
       <br />
-      <button
-        onClick={() => {
-          setCount(++count);
-        }}
-      >
-        Count
-      </button>
+      <button onClick={
+        () => { setCount(++count); }}> Count </button>
+      <Teacher teacherName="Imran Zafar"/>
     </div>
   );
 }
